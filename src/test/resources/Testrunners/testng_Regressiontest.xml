@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Verizon Regression Suite">
+  <test  name="Verizon Test">
+    <classes>
+      <class name="com.qa.verzion.tests.Add_Cart_tests">
+      <methods>
+       <include name= "newCostum"/>
+        <include name= "verifyHeader"/>
+         <include name= "clikCart"/>
+          <include name= "menuMbl"/>
+           <include name= "correctPhone"/>
+            <include name= "saveCart"/>
+       </methods>
+      </class>
+      <class name="com.qa.verzion.tests.Select_Phone_tests">
+      <methods>
+        <include name= "verifyHeader"/>
+         <include name= "select"/>
+         <include name= "thanks"/>
+          <include name= "contClick"/>
+      
+      </methods>
+      </class>
+      <class name="com.qa.verzion.tests.MainPage_Verizon_test">
+      <methods>
+       <include name= "verifyMainPageTitle"/>
+         <include name= "shop"/>
+      
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

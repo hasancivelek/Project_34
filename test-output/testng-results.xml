@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12149" started-at="2020-10-17T20:45:43 CDT" finished-at="2020-10-17T20:45:55 CDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12149" started-at="2020-10-17T20:45:43 CDT" finished-at="2020-10-17T20:45:55 CDT">
+      <class name="com.qa.verzion.tests.MainPage_Verizon_test">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.verzion.tests.MainPage_Verizon_test@4e7dc304]" name="setUp" is-config="true" duration-ms="2819" started-at="2020-10-17T20:45:43 CDT" finished-at="2020-10-17T20:45:46 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyMainPageTitle()[pri:1, instance:com.qa.verzion.tests.MainPage_Verizon_test@4e7dc304]" name="verifyMainPageTitle" duration-ms="89" started-at="2020-10-17T20:45:46 CDT" finished-at="2020-10-17T20:45:46 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.verzion.tests.MainPage_Verizon_test@4e7dc304]" name="tearDown" is-config="true" duration-ms="92" started-at="2020-10-17T20:45:46 CDT" finished-at="2020-10-17T20:45:46 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.verzion.tests.MainPage_Verizon_test@4e7dc304]" name="setUp" is-config="true" duration-ms="2439" started-at="2020-10-17T20:45:46 CDT" finished-at="2020-10-17T20:45:49 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="shop()[pri:2, instance:com.qa.verzion.tests.MainPage_Verizon_test@4e7dc304]" name="shop" duration-ms="6577" started-at="2020-10-17T20:45:49 CDT" finished-at="2020-10-17T20:45:55 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shop -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.verzion.tests.MainPage_Verizon_test@4e7dc304]" name="tearDown" is-config="true" duration-ms="106" started-at="2020-10-17T20:45:55 CDT" finished-at="2020-10-17T20:45:55 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.verzion.tests.MainPage_Verizon_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
